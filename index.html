@@ -1,0 +1,41 @@
+<!--
+Tutorial: https://codingthesmartway.com/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started/
+Tutorial: https://www.youtube.com/watch?v=M4YsClyTMzg
+
+***note: badge does not work anymore, so just use <div id="output"></div>
+
+//in Windows terminal, cd to dir
+//in Windows terminal, enter command: parcel index.html
+//in browser, go to http://localhost:1234
+//in browser, press ctrl + shift + j to see console
+
+linear regression: y=2x-1
+sample input = 5; result = ~9
+
+-->
+
+<html>
+    <head> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+    
+    <body>
+
+        <div class="container" style="padding-top: 20px">
+            <div class="card">
+                <div class="card-header">
+                    <strong>TensorFlow.js Demo - Linear Regression</strong>
+                </div>
+                <div class="card-body">
+                    <label>Input Value:</label> 
+                    <input type="number" id="inputValue" class="form-control"><br>
+                    <button type="button" class="btn btn-primary" id="predictButton" disabled>Model is being trained, please wait ...</button><br><br>
+                    <h4>Result: </h4>
+                    <div id="output"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
