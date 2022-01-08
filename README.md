@@ -9,5 +9,5 @@ An introduction to using Tensorflow.js for web applications. Uses linear regress
 
 
 ## Changes made:
-* removed "_<span class="badge badge-secondary" id="output"></span>_"
+* removed "<_span class="badge badge-secondary" id="output"></span_>"
 * needed to parseInt the input value to fix the error "_must be numeric tensor, but got string tensor_"
